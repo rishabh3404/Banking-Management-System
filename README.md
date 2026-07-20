@@ -59,3 +59,14 @@ A desktop-based Banking Management System developed using **Python**, **Tkinter*
 ## 👨‍💻 Developed By
 
 **Rishabh Singh**
+## 📷 Project Screenshots
+
+### Login Page
+
+![Login](screenshots/login_page.jpg)
+
+---
+
+### Admin Dashboard
+
+![Dashboard](screenshots/admin_dashboard.jpg)

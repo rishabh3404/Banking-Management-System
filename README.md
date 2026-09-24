@@ -1,72 +1,69 @@
-# 🏦 Banking Management System
+# Banking Management System
 
-A desktop-based Banking Management System developed using **Python**, **Tkinter**, and **MySQL**.
+A Python-based desktop banking application developed using Tkinter and MySQL for managing customer accounts and administrative banking operations.
 
-## 🚀 Project Status
+## 📌 Project Overview
 
-🚧 Currently Under Development
+The Banking Management System provides a graphical interface for basic banking administration and customer account management.
 
----
+The application includes authentication, CAPTCHA verification, account creation, account search, account viewing, and account closure functionality.
 
-## ✨ Features Completed
+## 🎯 Objectives
 
-- 🔐 Secure Login System
-- 🤖 CAPTCHA Verification
-- 👤 User Type Selection
-- 🛠️ Admin Dashboard
-- 🏦 Open Account Module
-- 📋 View Account Module
-- ❌ Close Account Module
-- 🚪 Logout System
-- 📅 Live Date & Time
+- Build a user-friendly banking desktop application
+- Implement customer and admin authentication
+- Manage customer bank accounts
+- Store banking data in a relational database
+- Implement account search and management operations
+- Provide email notifications during account creation
 
----
-
-## 🛠️ Technologies Used
+## 🛠️ Technology Stack
 
 - Python
 - Tkinter
 - MySQL
 - SQL
-- VS Code
+- SQLite
+- SMTP / Email Integration
 
----
+## ✨ Key Features
 
-## 📸 Screenshots
+### 🔐 Authentication
 
-### Login Page
+- User login system
+- Customer/Admin user roles
+- CAPTCHA verification
+- Password generation
 
-![Login Page](login%20page.jpeg)
+### 👤 Customer Management
 
-### Admin Dashboard
+- Create new customer account
+- View account information
+- Search customer accounts
+- Close customer accounts
 
-![Admin Dashboard](Admin%20Dashboard.jpeg)
+### 🧑‍💼 Admin Dashboard
 
----
+- Admin login
+- Account management
+- Customer information management
+- Account search functionality
 
-## 🔄 Upcoming Features
+### 📧 Email Notification
 
-- Deposit Money
-- Withdraw Money
-- Balance Enquiry
-- Mini Statement
-- Customer Dashboard
-- Transaction History
-- Password Reset
+The application can send an email notification after successful account creation.
 
----
+## 🔄 Application Workflow
 
-## 👨‍💻 Developed By
-
-**Rishabh Singh**
-## 📷 Project Screenshots
-
-### Login Page
-
-![Login](screenshots/login_page.jpg)
-
----
-
-### Admin Dashboard
-
-![Dashboard](screenshots/admin_dashboard.jpg)
+```text
+Login
+  ↓
+User Authentication
+  ↓
+Customer / Admin Dashboard
+  ↓
+Account Management
+  ↓
+Database Operations
+  ↓
+Email Notification
